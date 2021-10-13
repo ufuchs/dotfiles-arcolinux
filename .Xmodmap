@@ -1,0 +1,16 @@
+!
+! Map Caps_Lockto an extra Control
+!
+remove Lock = Caps_Lock
+remove Control = Control_L
+
+keysym Control_L = Control_L
+keysym Caps_Lock = Control_L
+
+add Lock = Caps_Lock
+add Control = Control_L
+
+!
+! Compose key to Right Alt
+!
+keycode 108 = Multi_key
